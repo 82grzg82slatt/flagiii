@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     public void dobraOdpowiedz(View view) {
         view.setVisibility(View.INVISIBLE);
         licznikZłych++;
-        if (licznikZłych == 4);{
+        if (licznikZłych == 4){
             textView.setText(R.string.podsumowanie);
 
         }
