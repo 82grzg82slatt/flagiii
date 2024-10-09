@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="#2D2D39"
+    android:background="@color/kolor_tla"
     tools:context=".MainActivity">
 
     <TextView
@@ -16,7 +16,7 @@
         android:text="@string/polecenie"
         android:layout_margin="16dp"
         android:textAlignment="center"
-        android:textSize="16sp"
+        android:textSize="@dimen/czcionka_rozmiar"
         android:textColor="#D8D8D8"
 
         />
@@ -31,15 +31,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/white"
-            android:layout_margin="16dp"
+            android:layout_margin="@dimen/margines_przyciski"
             android:onClick="zlaOdpowiedz"/>
 
         <Button
             android:id="@+id/button5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#FF5722"
-            android:layout_margin="16dp"
+            android:backgroundTint="@color/pomaranczowy"
+            android:layout_margin="@dimen/margines_przyciski"
             android:onClick="dobraOdpowiedz"
             />
         />
@@ -49,7 +49,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="#FFEB3B"
-            android:layout_margin="16dp"
+            android:layout_margin="@dimen/margines_przyciski"
             android:onClick="dobraOdpowiedz"
 
             />
@@ -67,7 +67,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="#8BC34A"
-            android:layout_margin="16dp"
+            android:layout_margin="@dimen/margines_przyciski"
             android:onClick="dobraOdpowiedz"
 
 
@@ -78,7 +78,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/purple_700"
-            android:layout_margin="16dp"
+            android:layout_margin="@dimen/margines_przyciski"
             android:onClick="dobraOdpowiedz"
             android:contentDescription="fioletowy"
 
@@ -89,7 +89,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="#FF0000"
-            android:layout_margin="16dp"
+            android:layout_margin="@dimen/margines_przyciski"
             android:onClick="zlaOdpowiedz"
             />
     </LinearLayout>
